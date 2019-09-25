@@ -1,0 +1,17 @@
+{
+  "name": "node_web_api",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -w"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
